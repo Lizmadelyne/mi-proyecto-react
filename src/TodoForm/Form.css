@@ -1,0 +1,65 @@
+form{
+    width: 90%;
+    max-width: 400px;
+    background-color: transparent;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    font-family: 'karla';
+    border-radius: 10px;
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); 
+}
+
+label{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color:#56B8AD;
+    margin-bottom: 26px;
+}
+
+textarea{
+background-color:#efbbff ;
+border:2px;
+border-radius: 2px;
+color: #660066;
+width: 90%;
+height: 120%;
+height: 60%;
+font-family: karla, sans-serif;
+font-size: 100%;
+font-weight: bold;
+padding: 12px 20px;
+resize: none;
+}
+textarea:focus{
+    outline-color: #57385c;
+}
+.TodoForm-buttonContainer {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+  }
+  .TodoForm-button {
+    padding: 10px;
+    margin-top: 0%;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: #660066;
+    font-weight: 400;
+    width: 120px;
+    height: 48px;
+    border-radius: 2px;
+    border: none;
+    border-radius: 15px;
+    background: #56B8AD;
+   
+  }
