@@ -24,3 +24,6 @@ font-weight: 400;
 .TodoSearch:focus{
     outline-color:#56B8AD;
 }
+.TodoSearch:disabled{
+    opacity:25%;
+}

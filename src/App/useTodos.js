@@ -1,12 +1,11 @@
 import React from 'react';
 import { useLocalStorage } from './useLocalStorage';
 
-
-// este es el custom hooks
 function useTodos() {
   const {
     item: todos,
     saveItem: saveTodos,
+    sincronizeItem: sincronizeTodos,
     loading,
     error,
   } = useLocalStorage('TODOS_V1', []);
@@ -27,17 +26,16 @@ function useTodos() {
       return todoText.includes(searchText);
     });
   }
+
   const addTodo = (text) => {
-    
     const newTodos = [...todos];
     newTodos.push({
-      completed:false,
+      completed: false,
       text,
-
-    })
+    });
     saveTodos(newTodos);
-  
   };
+
   const completeTodo = (text) => {
     const todoIndex = todos.findIndex(todo => todo.text === text);
     const newTodos = [...todos];
@@ -52,22 +50,21 @@ function useTodos() {
     saveTodos(newTodos);
   };
   
-  return (
-
-      loading,
-      error,
-      totalTodos,
-      addTodo,
-      completedTodos,
-      searchValue,
-      setSearchValue,
-      searchedTodos,
-      completeTodo,
-      deleteTodo,
-      openModal,
-      setOpenModal
-   
-  );
+  return {
+    loading,
+    error,
+    totalTodos,
+    completedTodos,
+    searchValue,
+    setSearchValue,
+    searchedTodos,
+    addTodo,
+    completeTodo,
+    deleteTodo,
+    openModal,
+    setOpenModal,
+    sincronizeTodos,
+  };
 }
 
 export { useTodos };
