@@ -1,0 +1,29 @@
+.TodoSearch{
+    margin: 0 auto;
+    padding: 8px;
+    height: 50px;
+    width: calc(100% -50px);
+    font-size: 25px;
+    text-align: center;
+    font-family: karla sans-serif;
+    font-weight: 400;
+    color:gray;
+    border:none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+.TodoSearch::placeholder{
+color: #56B8AD;
+font-family: karla, sans-serif;
+font-weight: 400;
+}
+.TodoSearch:focus{
+    outline-color:#56B8AD;
+}
+.TodoSearch:disabled{
+    opacity:25%;
+}
