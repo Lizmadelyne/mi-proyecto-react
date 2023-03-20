@@ -12,6 +12,8 @@
     "babel-plugin-macros": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -22,7 +24,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +46,5 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   },
-  "homepage":"https://Lizmadelyne.github.io/mi-proyecto-react" 
+  "homepage": "https://Lizmadelyne.github.io/mi-proyecto-react"
 }
