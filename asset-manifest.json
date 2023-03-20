@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/mi-proyecto-react/static/css/main.3c3e7e87.css",
-    "main.js": "/mi-proyecto-react/static/js/main.90639bed.js",
+    "main.css": "/mi-proyecto-react/static/css/main.978df2d7.css",
+    "main.js": "/mi-proyecto-react/static/js/main.3a552eaf.js",
     "index.html": "/mi-proyecto-react/index.html",
     "static/media/Delete.svg": "/mi-proyecto-react/static/media/Delete.57c608187d3a15c69f6a48c5b9f1dd13.svg",
+    "static/media/Edit.svg": "/mi-proyecto-react/static/media/Edit.900a8fd203adc364a82d0ebc6ad8dc94.svg",
     "static/media/Check.svg": "/mi-proyecto-react/static/media/Check.ffa8737a7a748bb2a7e44f853d166917.svg",
-    "main.3c3e7e87.css.map": "/mi-proyecto-react/static/css/main.3c3e7e87.css.map",
-    "main.90639bed.js.map": "/mi-proyecto-react/static/js/main.90639bed.js.map"
+    "main.978df2d7.css.map": "/mi-proyecto-react/static/css/main.978df2d7.css.map",
+    "main.3a552eaf.js.map": "/mi-proyecto-react/static/js/main.3a552eaf.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c3e7e87.css",
-    "static/js/main.90639bed.js"
+    "static/css/main.978df2d7.css",
+    "static/js/main.3a552eaf.js"
   ]
 }
